@@ -17,7 +17,7 @@ resource "aws_instance" "app-server" {
   ami = "ami-0bff25b43a4479334"
   instance_type = "t2.micro"
   
-  tag {
+  tags = {
     name = "nithin"
     #environment = "test"
   }    
