@@ -13,8 +13,8 @@ provider "aws" {
   region = "us-east-2"
 }
 
-resource "aws_s3_bucket" "demo-24"{
-  bucket = "demo-bucket-24"
+resource "aws_s3_bucket" "n"{
+  bucket = "nithin-tf-test-bucket"
   acl = "private"
 
 tags = {
