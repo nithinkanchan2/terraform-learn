@@ -3,7 +3,7 @@ output "instance_id" {
   value = "aws_instance.app_server.id"
 }
 
-output "Public IP" {
+output "public_ip" {
   description = "public IP is"
   value = "aws_instance.app_server.public_ip"
 }
