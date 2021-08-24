@@ -21,7 +21,7 @@ default = mykey
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-   defdefault = "mykey.pub"  
+   default = "mykey.pub"  
 }
 
 variable "INSTANCE_USERNAME" {
