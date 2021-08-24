@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "demo"{
   acl = "private"
 }
 
-tags {
+tags = {
   Name = var.bucket_name
 }
 
