@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "demo"{
-  bucket = "demo-bucket"
+  bucket = "demo-bucket-24"
   acl = "private"
 
 tags = {
